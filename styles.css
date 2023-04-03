@@ -10,7 +10,7 @@ body {
     font-size: 16px;
 }
 
-  .form-title {
+.form-title {
     text-align: center;
     text-transform: uppercase;
     font-size: 1.7rem;
@@ -20,32 +20,32 @@ body {
     margin: 0 0 30px 0;
   }
 
-  form {
+form {
     background-color: #f8f9fa;
   }
 
-  h2 {
+h2 {
     text-align: center;
   }
-  p {
+p {
     padding: 0 30px 0 30px;
     text-align: center;
     padding-bottom: 40px;
     font-weight: 100;
   }
 
-  hr {
+hr {
     width: 90%;
     border: 3px solid black;
   }
 
-  hr + hr {
+hr + hr {
     width: 90%;
     border: 1px solid black;
     margin-bottom: 30px;
   }
 
-  #second-hr {
+#second-hr {
     width: 90%;
     border: 1px solid black;
     margin-bottom: 30px;
@@ -61,9 +61,9 @@ body {
 /* Inputs */
 
 input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  select {
+input[type="email"],
+input[type="tel"],
+select {
     background-color: #e5e9f0;
     border: none;
     font-size: 16px;
@@ -76,21 +76,21 @@ input[type="text"],
     transition-duration: 1s;
   }
 
-  #zipcode {
+#zipcode {
     width: 240px;
   }
 
-  input[type="checkbox"],
-  input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
       margin-bottom: 35px;
   }
   
-  #javascript,
-  #text {
+#javascript,
+#text {
       margin-bottom: 50px;
   }
   
-  textarea {
+textarea {
       width: 100%;
       border: 0;
       background-color: #e5e9f0;
@@ -103,25 +103,25 @@ input[type="text"],
 
   /* Fieldsets, Legends, Placeholders, Hover and Focus */
   
-  .fieldset-contact,
-  .fieldset-newsletter {
+.fieldset-contact,
+.fieldset-newsletter {
     border: 0;
   }
 
-  .contact-info,
-  .newsletter-info {
+.contact-info,
+.newsletter-info {
     text-align: left;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
   }
 
-  .label-contact {
+.label-contact {
     display: block;
     margin-bottom: 15px;
   }
 
-  .label-news {
+.label-news {
     display: block;
     margin-bottom: 25px;
 }
@@ -135,7 +135,7 @@ label[for="html-radio"]  {
     letter-spacing: 1px;
 }
 
-  ::placeholder {
+::placeholder {
     text-align: right;
     font-style: italic;
   }
