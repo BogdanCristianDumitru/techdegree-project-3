@@ -78,7 +78,7 @@ select {
   }
 
 #zipcode {
-    width: 240px;
+    width: 50%;
   }
 
 input[type="checkbox"],
@@ -183,28 +183,24 @@ button[type="submit"] {
   
 .flex {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .label-contact {
   flex-grow: 1;
-  flex-basis: 27%;
+  flex-basis: 30%;
   align-self: center;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-select {
-  flex-grow: 1;
-  flex-basis: 73%;
+.zip {
+  display: flex;
+  justify-content: flex-start;
 }
 
-#zipcode {
+/*#zipcode {
   flex-grow: 1;
-  flex-basis: 29%;
-  margin-right: 39%; 
-}
+  flex-basis: 70%;
+}*/
 
 input[type="text"],
 input[type="email"],
