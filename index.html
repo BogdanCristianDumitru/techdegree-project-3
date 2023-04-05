@@ -25,7 +25,6 @@
         <fieldset class="fieldset-contact">
             <legend class="contact-info">Contact Information</legend>
     <div class="flex">
-        <div class="flex-2">
             <label class="label-contact" for="full-name">Full Name</label>
             <input type="text" id="full-name" name="user-name" placeholder="Required" required>
             <label class="label-contact" for="email">Email Address</label>
@@ -33,9 +32,9 @@
             <label class="label-contact" for="phone">Phone Number</label>
             <input type="tel" id="phone" name="user-phone" placeholder="(555) 555-5555">
             <label class="label-contact" for="street-address">Street Address</label>
-            <input type="text" id="street-address" name="user-street-address">
+            <input type="text" id="street-address" name="user-street-address" placeholder="Number, Street">
             <label class="label-contact" for="city">City</label>
-            <input type="text" id="city" name="user-city">
+            <input type="text" id="city" name="user-city" placeholder="Your City">
             <label class="label-contact" for="state">State</label>
             <select id="state" name="user-state">
                 <option value="" disabled selected hidden>Choose State</option>
@@ -49,8 +48,7 @@
                 <option value="California">California</option>
             </select>
             <label class="label-contact" for="zipcode">Zip Code</label>
-            <input type="text" id="zipcode" name="user-zipcode">
-        </div>
+            <input type="text" id="zipcode" name="user-zipcode" placeholder="00000">
         </div>
         </fieldset> 
 
@@ -69,7 +67,7 @@
             <input type="radio" id="text" value="text_format" name="user_format"><label for="text">Plain text</label>
 
             <label class="label-news" for="topics">Other topics you'd like to hear about</label>
-            <textarea id="topics" name="user_topics"></textarea>
+            <textarea id="topics" name="user_topics" placeholder="Let us know about the topics you are most interested in..."></textarea>
 
             <button type="submit">Sign up</button>
         </fieldset>
