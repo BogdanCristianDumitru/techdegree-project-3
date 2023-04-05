@@ -192,15 +192,9 @@ button[type="submit"] {
   align-self: center;
 }
 
-.zip {
-  display: flex;
-  justify-content: flex-start;
+#zipcode {
+  flex-basis: 25%;
 }
-
-/*#zipcode {
-  flex-grow: 1;
-  flex-basis: 70%;
-}*/
 
 input[type="text"],
 input[type="email"],
