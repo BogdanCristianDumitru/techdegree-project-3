@@ -69,7 +69,7 @@ select {
     border: none;
     font-size: 16px;
     height: 80px;
-    flex-basis: 70%;
+    width: 100%;
     padding: 20px;
     margin-bottom: 35px;
     border-radius: 5px;
@@ -187,8 +187,16 @@ button[type="submit"] {
 }
 
 .label-contact {
-  flex-basis: 30%;
+  flex-basis: 25%;
   align-self: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: auto;
+  flex-basis: 75%;
 }
 
 #zipcode {
